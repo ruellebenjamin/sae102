@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    position: relative; /* Changement de position relative */
+}
+
+nav img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -90px;
+    left: 10px;
+}
+header {
+    background-color: #f0f0f0; /* Ajout d'une couleur de fond pour le header */
+    border-bottom: solid black;
+    box-shadow: 0px 12px 2px 2px #fc8525;
+    padding-top: 7.5%;
+    margin-bottom: 30px;
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.menu-item {
+    color: black;
+    border: solid #000;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    top: 0%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+menu a:hover {
+    color: #fc8525;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 6px 2px 5px  #9F9F9F;
+}
+.logoiut {
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    right: 120px;
+    top: 0;
+
+}
+.h1 {
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    top: -70px;
+    transform: translateY(-50%); /* Centre verticalement */
+    transition: transform 0.5s ease; /* Transition fluide */
+}
+h3 {
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+#swot {
+    background-color: #f1bf38;
+    color: white;
+    border: solid #000;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.matrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: #000 solid;
+    border-radius: 25px;
+    margin-top: 20px;
+    width: auto;
+}
+.paragraphe-forces {
+    width: 200px;
+}
+.paragraphe-faiblesses {
+    width: 200px;
+}
+.paragraphe-menaces {
+    width: 200px;
+}
+.paragraphe-opportunités {
+    width: 200px;
+}
+#boite {
+    height: 150px;
+    width: 700px;
+    position: relative;
+    left: 300px;
+    top: -70px;
+}
+#public {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: fit-content;
+    position: relative;
+    left: auto;
+    margin-bottom: 35px;
+}
+#titre {
+    margin-top: 80px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 1.2em;
+    border: solid black;
+    padding: 12px 12px;
+    background-color: #f1bf38;
+    color: white;
+    border-radius: 25px;
+    width: fit-content;
+}
+h4 {
+    font-size: 1.3em;
+}
+.interne {
+    font-size: 1.1em;
+        width: 220px;
+        margin-left: 10px;
+
+}
+.externe {
+        font-size: 1.1em;
+        width: 220px;
+        margin-left: 10px;
+}
+h5 {
+    font-size: 2em;
+    color: white;
+    border: solid black;
+    background-color: #fc8525;
+    border-radius: 15px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stratégie {
+    margin-top: 50px;
+    border: solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: fit-content;
+    font-size: 1em;
+}
+#boite2 {
+    margin: -40px auto;
+}
+#res {
+    margin: 90px auto;
+}
+.texte {
+    font-size: 1.5em;
+    border: solid black;
+    background-color: #f1bf38;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 10px 15px;
+}
+#imagereseaux {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+}
+.insta,.facebook {
+    width: 300px;
+}
+.textereseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.F, .I {
+    width: 200px;
+    
+}
+footer a {
+    color: black;
+    
+}

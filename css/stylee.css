@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 120px ;
+    font-family: 'Space Mono', monospace, Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+header {
+    background-color: #f0f0f0; /* Ajout d'une couleur de fond pour le header */
+    border-bottom: solid black;
+    box-shadow: 0px 12px 2px 2px #fc8525;
+    padding-top: 7.5%;
+}
+.logoiut {
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    right: 120px;
+    top: 0;
+
+}
+nav {
+    position: relative; /* Changement de position relative */
+}
+
+nav img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -90px;
+    left: 10px;
+}
+
+h1 {
+    margin-left: 120px; /* Ajout de marge pour le texte à côté du logo */
+    margin-top: -70px;
+    margin-bottom: 60px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.menu-item {
+    color: black;
+    border: solid #000;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    top: 0%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+#visu {
+    right: 15%;
+}
+
+#charte {
+    right: 37.5%;
+}
+
+#comm {
+    left: 25%;
+}
+
+a:hover {
+    color: orange;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 6px 2px 5px  #9F9F9F;
+}
+.paragraph-container {
+    background-color: #f0f0f0; /* Ajout d'une couleur de fond pour la section centrale */
+    padding: 15px;
+    border-radius: 15px;
+    width: 97%;
+    margin-top: 60px;
+    margin-left: 0px;
+}
+.fter {
+    margin-top: 40px;
+    height: 230px;
+    width: 100%;
+    background-color: #fc8525;
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img {
+    border-radius: 50px;
+    height: 120px;
+    width: 120px;
+    transition: transform 0.1s ease-in-out;
+    margin-bottom: 10px; 
+}
+
+.prenom {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.prenom p {
+    color: black;
+    text-align: center;
+    margin-top: 0; 
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+}
+.section-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+#section-paragraph {
+    width: 500px;
+}
+.antipub {
+    height: 350px;
+    margin-top: 80px;
+}
+.iframe {
+    height: 340px;
+    width: 800px;
+    margin-top: 50px;
+}
+#iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+

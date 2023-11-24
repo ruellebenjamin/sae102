@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    position: relative; /* Changement de position relative */
+}
+
+nav img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -90px;
+    left: 10px;
+}
+header {
+    background-color: #f0f0f0; 
+    border-bottom: solid black;
+    box-shadow: 0px 12px 2px 2px #fc8525;
+    padding-top: 7.5%;
+    margin-bottom: 30px;
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.menu-item {
+    color: black;
+    border: solid #000;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    top: 0%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+a:hover {
+    color: #fc8525;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 6px 2px 5px  #9F9F9F;
+}
+#h1 {
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+
+nav h2 {
+    border-bottom: solid black;
+    width: fit-content;
+    margin: 0 auto;
+}
+.logoiut {
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    right: 120px;
+    top: 0;
+
+} 
+.echantillon {
+    margin-top: 20px;
+    border-left: solid black;
+    border-bottom: solid;
+    border-right: solid black;
+    border-top: solid black;
+}
+.visuel, .visuel2, .visuel3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.visuel img {
+    width: 260px;
+    height: 400px;
+    padding: 10px;
+}
+.visuel2 img {
+    width: 260px;
+    height: 400px;
+    padding: 10px;
+}
+.visuel3 img {
+    width: 260px;
+    height: 400px;
+    padding: 10px;
+}
+.visuel img,
+.visuel2 img,
+.visuel3 img {
+    transition: filter 0.3s ease-in-out;
+    filter: brightness(50%);
+}
+
+.visuel img:hover,
+.visuel2 img:hover,
+.visuel3 img:hover {
+    filter: brightness(100%);
+}
+.hashtags {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h4 {
+    font-size: 1.4em;
+}
+.stoppub {
+    width: 800px;
+    height: 290px;
+    border: solid black;
+    border-radius: 25px;
+}
+.azer {
+    height: 400px;
+}
+.azert {
+    padding: 15px;
+    border: #000 solid;
+    border-radius: 25px;
+    width: fit-content;
+    text-align: left;
+}

@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 120px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    position: relative; /* Changement de position relative */
+}
+
+nav img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -90px;
+    left: 10px;
+}
+header {
+    background-color: #f0f0f0; /* Ajout d'une couleur de fond pour le header */
+    border-bottom: solid black;
+    box-shadow: 0px 12px 2px 2px #fc8525;
+    padding-top: 7.5%;
+    margin-bottom: 30px;
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.menu-item {
+    color: black;
+    border: solid #000;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    top: 0%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+a:hover {
+    color: orange;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 5px 6px 2px 5px  #9F9F9F;
+}
+.logoiut {
+    height: 70px;
+    width: 100px;
+    position: absolute;
+    right: 120px;
+    top: 0;
+
+}
+#h1 {
+    text-align: center;
+    position: relative;
+    top: -70px;
+}
+.h2 {
+    text-align: center;
+}
+.ligne {
+    margin-bottom: 20px;
+}
+.titre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h3 {
+    border: solid black;
+    border-radius: 20px;
+    background-color: #f1bf38;
+    padding: 5px 5px;
+    color: white;
+}
+/* Ajoutez cette partie à votre fichier CSS */
+
+.ptitre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.themes,
+.sous-themes,
+.problemes,
+.solutions {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    min-height: 200px; /* Hauteur minimale pour éviter le décalage */
+}
+
+.themes h3,
+.sous-themes h3,
+.problemes h3,
+.solutions h3 {
+    text-align: center;
+}
+
+.themes p,
+.sous-themes p,
+.problemes p,
+.solutions p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 6px #fc8525;
+    text-align: center;
+}
+.theme2 {
+    margin-top: 40px;
+}
+.theme3 {
+    margin-top: 100px;
+}
+.sous-theme2 {
+    margin-top: 20px;
+}
+.sous-theme3 {
+    margin-top: 120px;
+}
+.probleme3 {
+    margin-top: 100px;
+}
+.solutions {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alignez les éléments au début du conteneur */
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.solutions p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 6px #fc8525;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+    width: 70px;
+    height: 100px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.td6 {
+    background-color: #FF7F50;
+    position: relative; 
+}
+
+.td6 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td12 {
+    background-color:  #a6b8cb;
+    position: relative; 
+}
+
+.td12 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td8 {
+    background-color:  #ace5f3;
+    position: relative; 
+}
+
+.td8 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td10 {
+    background-color:  #b0f2b6;
+    position: relative; 
+}
+
+.td10 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td13 {
+    background-color:  #FF7F50;
+    position: relative; 
+}
+
+.td13 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td15 {
+    background-color: #FFFACD;
+    position: relative; 
+}
+
+.td15 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td17 {
+    background-color: #ace5f3;
+    position: relative; 
+}
+
+.td17 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td19 {
+    background-color:  #FF7F50;
+    position: relative; 
+}
+
+.td19 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td20 {
+    background-color:  #a6b8cb;
+    position: relative; 
+}
+
+.td20 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td22 {
+    background-color:  #ace5f3;
+    position: relative; 
+}
+
+.td22 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td24 {
+    background-color:  #b0f2b6;
+    position: relative; 
+}
+
+.td24 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td26 {
+    background-color:  #FF7F50;
+    position: relative; 
+}
+
+.td26 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td28 {
+    background-color:  #a6b8cb;
+    position: relative; 
+}
+
+.td28 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td29 {
+    background-color: #FFFACD;
+    position: relative; 
+}
+
+.td29 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td31 {
+    background-color:  #b0f2b6;
+    position: relative; 
+}
+
+.td31 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.td33 {
+    background-color:  #a6b8cb;
+    position: relative; 
+}
+
+.td33 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}.td34 {
+    background-color: #FFFACD;
+    position: relative; 
+}
+
+.td34 p {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: solid black;
+    box-sizing: border-box;
+    text-align: end;
+}
+.légende {
+    margin-top: 40px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10PX;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ace5f3;
+}
+.container1 {
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: auto;
+    height: fit-content;
+    background-color: #a6b8cb;
+}
+.container2 {
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #b0f2b6;
+}
+.container3 {
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #FFFACD;
+}
+.container4 {
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+    padding: 5px 5px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #FF7F50;
+}
+.styleeditoriale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.stitre {
+    margin-top: 50px;
+    text-align: center;
+}
+.normeecriture, .styleredac  {
+    border: solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 5px #fc8525;
+    width: fit-content;
+    padding: 5px 5px;
+    margin-top: 40px;
+}
+.norme, .redactitre {
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+.ecriture, .relationnel {
+    margin-top: 10px;
+    width: 500px;
+    font-size: 1.2em;
+}
+
+.hovered {
+    background-color: #ffa500; /* Changez la couleur au survol */
+    transition: background-color 0.3s ease; /* Ajoutez une transition pour une animation fluide */
+}
